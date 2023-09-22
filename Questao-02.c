@@ -31,7 +31,7 @@ int main(){
     
     if (n >= 0)
     {
-        printf("A soma dos algarismos de %d eh igual a %d\n", n, soma);
+        printf("A soma dos algarismos de %d eh %d\n", n, soma);
     }
     
     return 0;
