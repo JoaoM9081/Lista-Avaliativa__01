@@ -5,16 +5,8 @@ int main(){
     char categoria;
     float salario, aumento;
 
-    printf("Insira sua categoria (a, b ou c): \n");
     scanf(" %c", &categoria);
-
-    while (categoria != 'a' && categoria != 'b' && categoria != 'c')
-    {
-        printf("Categoria invalida!!!\n");
-        scanf(" %c", &categoria);
-    }
     
-    printf("Digite seu salario: \n");
     scanf("%f", &salario);
 
     switch(categoria) {

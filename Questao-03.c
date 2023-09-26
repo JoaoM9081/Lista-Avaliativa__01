@@ -6,22 +6,14 @@ int main(){
 
     int SC, SI;
     
-    do
-    {   
-        printf("Insira uma senha para ser cadastrada (4 digitos): \n");
-        scanf("%d", &SC);
+    scanf("%d", &SC);
 
-        if (SC >= 1000 && SC < 9999){   
-            printf("senha cadastrada: %d\n", SC); break;
-        } else{  
-            printf("digite 4 digitos para cadastrar sua senha!!!\n");
-        }
-
-    } while (1);
+    if (SC >= 1000 && SC <= 9999){   
+        printf("senha cadastrada: %d\n", SC); 
+    } 
 
     do
     {
-        printf("Insira sua senha: \n");
         scanf("%d", &SI);
 
         if(SI == SC){

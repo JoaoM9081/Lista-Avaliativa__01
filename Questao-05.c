@@ -5,16 +5,8 @@ int main(){
     int n1, n2;
     int maior, menor;
 
-    printf("Insira dois numeros: \n");
     scanf("%d", &n1);
     scanf("%d", &n2);
-
-    while (n1 < 0 || n2 < 0)
-    {
-        printf("Numeros invalidos !!!\n"); 
-        scanf("%d", &n1);
-        scanf("%d", &n2);
-    }
     
     if (n1 == n2)
     {

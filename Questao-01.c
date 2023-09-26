@@ -4,7 +4,6 @@ int main(){
 
     int ano;
 
-    printf("Digite um ano:\n");
     scanf("%d", &ano);
 
     if (ano < 1896 || ano > 2022)
@@ -23,7 +22,6 @@ int main(){
         {
         printf("Nao houve Jogos Olimpicos de Verao ou Copa do Mundo no ano de %d.\n", ano);
         }  
-
 
     else if (ano % 4 == 0)
         {
